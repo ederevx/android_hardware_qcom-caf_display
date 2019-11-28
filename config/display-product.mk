@@ -6,7 +6,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service \
-    gralloc.$(TARGET_BOARD_PLATFORM) \
     hwcomposer.qcom \
     libqdMetaData.vendor \
     libdisplayconfig.vendor \
