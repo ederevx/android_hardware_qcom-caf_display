@@ -5,8 +5,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2-service \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
     vendor.qti.hardware.display.allocator@1.0-service \
-    android.hardware.light@2.0-impl \
-    android.hardware.light@2.0-service \
     hwcomposer.qcom \
     libqdutils \
     libqdMetaData \
