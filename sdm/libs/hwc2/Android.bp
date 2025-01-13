@@ -81,13 +81,13 @@ cc_library_shared {
     ],
 
     required: [
-        "android.hardware.graphics.composer-qti-display.xml",
+        "vendor.qti.hardware.display.composer-service.xml",
     ],
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.graphics.composer-qti-display.xml",
-    src: "android.hardware.graphics.composer-qti-display.xml",
+    name: "vendor.qti.hardware.display.composer-service.xml",
+    src: "vendor.qti.hardware.display.composer-service.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     vendor: true,
